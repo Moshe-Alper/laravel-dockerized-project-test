@@ -24,6 +24,6 @@ services:
       context: ./dockerfiles
       dockerfile: composer.dockerfile
     volumes:
-      - ./src/var/www/html
+      - ./src:/var/www/html
   # artisan:
   # npm:
